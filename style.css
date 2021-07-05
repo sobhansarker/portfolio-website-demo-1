@@ -1,0 +1,38 @@
+body{
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.intro{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+img{
+    width: 80%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.name{
+    color: yellow;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato );
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
