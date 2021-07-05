@@ -5,7 +5,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.section-area{
     display: flex;
     margin-bottom: 150px;
 }
@@ -20,7 +20,7 @@ img{
     width: 50%;
     padding-left: 5%;
 }
-.name{
+.txt-clr{
     color: yellow;
 }
 .link-btn{
@@ -35,4 +35,34 @@ img{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp-width{
+    width: 40%;
+    margin-left: 5%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.expb{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.expb div{
+    box-shadow: 5px 7px 40px gray;;
+}
+
+.r-exp{
+    border-image: linear-gradient(#f6b73c, #4d9f0c) ;
+    border-left: 9px solid;
+    border-image-slice: 1;
+}
+
+.l-exp{
+    border-image: linear-gradient(blue, cyan) ;
+    border-left: 9px solid;
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
